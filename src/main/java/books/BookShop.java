@@ -34,16 +34,16 @@ public class BookShop {
         double discount = 0;
         switch (diffBooks) {
             case 2:
-                discount = 0.07;
+                discount = 0.93;
                 break;
             case 3:
-                discount = 0.14;
+                discount = 0.86;
                 break;
             case 4:
-                discount = 0.28;
+                discount = 0.72;
                 break;
             case 5:
-                discount = 0.35;
+                discount = 0.65;
                 break;
         }
 
