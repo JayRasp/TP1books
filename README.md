@@ -4,9 +4,9 @@
 
 # To complete: 
 
-* Name :
-* Student Id:
-* Email :
+* Name : Joshua Weber
+* Student Id: 019154081E
+* Email : joshua.weber.001@student.uni.lu
 
 ### Setting
 In this practical session, you will code a method to compute the cost of shopping basket and test it using JUnit.
