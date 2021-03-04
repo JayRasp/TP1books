@@ -2,6 +2,7 @@ package books;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import books.BookShop;
 
 /**
  * TODO : Add your import here
@@ -9,12 +10,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BookShopTest {
 
-    /**
-     * TODO : Put your test here
-     */
-
     @Test
-    public void myFirstTest(){
-        assertTrue(false);
+    public void costTest(){
+        int[] books= {1,1,1,1,1};
+        double expectedCost=5*8*0.35;
+        double cost= new BookShop("TestShop").cost(books);
+        assertTrue(cost==expectedCost);
     }
 }
