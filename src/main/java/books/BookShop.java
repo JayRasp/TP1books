@@ -19,6 +19,8 @@ public class BookShop {
      */
     public double cost(int[] books){
         //TODO complete
+        double result=0;
+        
         return 0.0;
     }
 }
