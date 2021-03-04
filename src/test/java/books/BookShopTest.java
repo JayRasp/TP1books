@@ -2,11 +2,7 @@ package books;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import books.BookShop;
 
-/**
- * TODO : Add your import here
- */
 public class BookShopTest {
 
     @Test
