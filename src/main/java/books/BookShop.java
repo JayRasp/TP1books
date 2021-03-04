@@ -28,7 +28,21 @@ public class BookShop {
             }
             totalBooks+=i;
         }
-        double discount=0.07;
+        double discount=0;
+        switch(diffBooks){
+            case 2:
+                discount=0.07;
+                break;
+            case 3:
+                discount=0.14;
+                break;
+            case 4:
+                discount=0.28;
+                break;
+            case 5:
+                discount=0.35;
+                break;
+        }
         
         return (totalBooks-diffBooks)*8+(diffBooks-1)*discount*diffBooks*8;
     }
