@@ -23,13 +23,13 @@ public class BookShop {
         int totalBooks=0;
         
         for(int i : books){
-            if(i<0){
+            if(i>0){
                 diffBooks++;
             }
             totalBooks+=i;
         }
         double discount=0.07;
         
-        return (totalBooks-diffBooks)*8+(diffBooks-1)*discount*diffBooks;
+        return (totalBooks-diffBooks)*8+(diffBooks-1)*discount*diffBooks*8;
     }
 }
