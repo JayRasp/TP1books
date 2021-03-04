@@ -19,8 +19,17 @@ public class BookShop {
      */
     public double cost(int[] books){
         //TODO complete
-        double result=0;
+        int diffBooks=0;
+        int totalBooks=0;
         
-        return 0.0;
+        for(int i : books){
+            if(i<0){
+                diffBooks++;
+            }
+            totalBooks+=i;
+        }
+        double discount=0.07;
+        
+        return (totalBooks-diffBooks)*8+(diffBooks-1)*discount*diffBooks;
     }
 }
